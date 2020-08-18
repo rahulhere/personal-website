@@ -1,0 +1,171 @@
+/*
+
+Newly learned items:
+1) display: block, inline, inline-block, none;
+
+
+*/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: calc(3rem + 4.5vw);
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.programmer-text {
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #E0EBE8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding:50px 0 50px 0;
+}
+
+.cloud-top {
+  position: absolute;
+  transform: scaleX(-1);
+  left: calc(65vw + 130px);
+  top: 90px;
+
+}
+
+.cloud-bottom {
+  position: absolute;
+  /* top: min(30vw, 300px); */
+  top: calc(270px + 6vw);
+  right: max(73vw, 410px);
+}
+
+.mountain {
+  padding-top: 40px;
+  position: relative;
+  top: 4px;
+  width: 60%;
+  min-width: 400px;
+}
+
+.magic-box {
+  height: auto;
+  width: 30%;
+  border-radius: 100%;
+  float: left;
+  margin: 0 30px 30px 0;
+}
+
+.ice-cream {
+  height: auto;
+  width: 30%;
+  border-radius: 100%;
+  float: right;
+  margin: 0 30px 30px 0;
+}
+
+.profile {
+  margin: 0 auto 0 auto;
+  width: 40%;
+}
+
+.profile-pic {
+  margin: 5vw auto 0 auto;
+  overflow: hidden;
+  height: 20vw;
+  width: 28vw;
+  border-radius: 100%;
+}
+
+.profile-pic img {
+  height: 100%;
+  margin: 0 0 0 -1vw;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+.skill-row {
+  height: 200px;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+hr {
+  border-width: 10px 0 0 0;
+  border-style: dotted;
+  border-color: #EAF6F6;
+  margin: 100px auto 100px auto;
+  width: 15%;
+}
+
+.get-in-touch {
+  margin: 0 auto 0 auto;
+  width: 40%;
+}
+
+.btn {
+  background: #7BE0E4;
+  background-image: linear-gradient(to bottom, #7BE0E4, #3069C3);
+  border-radius: 5px;
+  height: 35px;
+  line-height: 35px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  width: 140px;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 45px 0 70px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border: solid #337FED 0;
+  background: #8FEFF3;
+  background-image: linear-gradient(to bottom, #8FEFF3, #3C7ADF);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  margin-top: 30px;
+}
