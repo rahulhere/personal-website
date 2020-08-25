@@ -1,3 +1,11 @@
+/*
+
+Newly learned items:
+1) display: block, inline, inline-block, none;
+
+
+*/
+
 body {
   margin: 0;
   text-align: center;
@@ -166,6 +174,7 @@ hr {
 
   .magic-box, .ice-cream {
     width: 40%;
+    margin: 0 15px 15px 0;    
   }
 
   .profile, .skill-row {
@@ -185,6 +194,10 @@ hr {
 
   .cloud-top, .cloud-bottom {
     display: none;
+  }
+
+  .get-in-touch {
+    width: 60%;
   }
 
 }
