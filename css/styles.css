@@ -1,12 +1,4 @@
-/*
-
-Newly learned items:
-1) display: block, inline, inline-block, none;
-
-
-*/
-
-body{
+body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -100,7 +92,7 @@ p {
 }
 
 .profile-pic {
-  margin: 5vw auto 0 auto;
+  margin: 80px auto 0 auto;
   overflow: hidden;
   height: 20vw;
   width: 28vw;
@@ -168,4 +160,31 @@ hr {
   color: #EAF6F6;
   font-size: 0.85rem;
   margin-top: 30px;
+}
+
+@media screen and (max-width:600px) {
+
+  .magic-box, .ice-cream {
+    width: 40%;
+  }
+
+  .profile, .skill-row {
+    width: 60%;
+  }
+
+  .footer-link {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .profile-pic {
+    margin-top: 70px;
+    height: 28.58vw;
+    width: 40vw;
+  }
+
+  .cloud-top, .cloud-bottom {
+    display: none;
+  }
+
 }
